@@ -13,4 +13,4 @@ git clone https://github.com/ourouimed/online-js-compiler.git
 - & more comming soon ...
 ## Live demo 
 ![app screenshot](./screenshot.png)
-to see live demo please visit [live demo](htpps://ourouimed.github.io/online-js-compiler)
+to see live demo please visit [live demo](https://ourouimed.github.io/online-js-compiler)
