@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>online js compiler</title>
+</head>
+<body>
+    <h1>Online JS compiler</h1>
+    <div class="container">
+        <div class="code">
+            <div class="code-header">
+                <span class="label">
+                    <div class="dots">
+                        <span class="red"></span>
+                        <span class="yellow"></span>
+                        <span class="green"></span>
+                    </div>
+                    <h3>index.js</h3>
+                </span>
+                <div class="btns">
+                    <button id="reset"><ion-icon name="refresh-outline"></ion-icon>Reset</button>
+                    <button id="run"><ion-icon name="play-outline"></ion-icon>Run</button>
+                </div>
+            </div>
+            <textarea id="input"></textarea>
+
+        </div>
+        <div class="code">
+            <div class="code-header">
+                <span class="label">
+                    <ion-icon name="terminal-outline"></ion-icon>
+                    <h3>Console</h3>
+                </span>
+            </div>
+            <div id="output"></div>
+        </div>
+    </div>
+    <div class="copyrights">&copy; <a href="https://github.com/ourouimed" style="color: white;text-decoration: none;font-weight: bold;">Ourouimed</a> <span id="date"></span></div>
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
