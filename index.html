@@ -8,8 +8,12 @@
 </head>
 <body>
     <h1>Online JS compiler</h1>
+    <div class="switcher" style="display: none;">
+        <button id="switch-inp" class="active">Input</button>
+        <button id="switch-out">Output</button>
+    </div>
     <div class="container">
-        <div class="code">
+        <div class="code active" id="input-container">
             <div class="code-header">
                 <span class="label">
                     <div class="dots">
@@ -20,14 +24,20 @@
                     <h3>index.js</h3>
                 </span>
                 <div class="btns">
-                    <button id="reset"><ion-icon name="refresh-outline"></ion-icon>Reset</button>
-                    <button id="run"><ion-icon name="play-outline"></ion-icon>Run</button>
+                    <button id="reset">
+                        <ion-icon name="refresh-outline"></ion-icon>
+                        <span>Reset</span>
+                    </button>
+                    <button id="run">
+                        <ion-icon name="play-outline"></ion-icon>
+                        <span>Run</span>
+                    </button>
                 </div>
             </div>
             <textarea id="input"></textarea>
 
         </div>
-        <div class="code">
+        <div class="code" id="output-container">
             <div class="code-header">
                 <span class="label">
                     <ion-icon name="terminal-outline"></ion-icon>

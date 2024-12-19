@@ -15,7 +15,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 10px;
-    margin-top: 20Px;
+    margin-top: 20px;
 }
 .code {
     background: #02041a;
@@ -31,6 +31,7 @@ body {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    gap: 10px;
     padding: 20PX;
 }
 
@@ -99,4 +100,31 @@ textarea#input {
     .container {
         grid-template-columns: 1fr;
     }
+    .btns > button > span {display: none;}
+    .btns , .btns > button {width: 100%;}
+    .code-header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .switcher {
+        display: flex !important;
+        align-items: center;
+        gap: 3px;
+        margin-top:  20px;
+        width: 100%;
+    }
+    .switcher > button {
+        padding: 10px 20px;
+        border: none;
+        background: white;
+        border-radius: 4px;
+        width: 100%;
+        transition: .5s ease;
+        cursor: pointer;
+    }
+    .switcher > button.active {
+        background: blue;
+        color: white;
+    }
+    #output-container {display: none;}
 }
