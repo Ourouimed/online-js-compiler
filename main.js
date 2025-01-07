@@ -3,7 +3,7 @@ let output = document.getElementById("output")
 let run = document.getElementById("run")
 let reset = document.getElementById("reset")
 
-
+console.log|(54)
 
 // Switch between input and output from mobile devices
 let switchBtns = document.querySelectorAll(".switcher > button")
